@@ -1,0 +1,109 @@
+.contact-us-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.contact-form,
+.thank-you-message {
+	max-width: 500px;
+	width: 100%;
+	text-align: center;
+}
+
+.contact-input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.contact-form div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.contact-form label {
+	flex: 1;
+	min-width: 80px; /* Adjust this value based on your layout needs */
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+	flex: 3;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+.contact-form input[type="submit"] {
+	width: auto;
+	align-self: center;
+	margin-top: 20px;
+	padding: 10px 20px;
+	border-radius: 12px;
+	background-color: inherit;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s, border-color 0.3s;
+	border: 1px solid #fff; /* White border color */
+}
+
+.contact-form input[type="submit"]:disabled {
+	background-color: #3f3f3f;
+	cursor: not-allowed;
+}
+
+.contact-form input[type="submit"]:hover {
+	background-color: #fff;
+	color: #000;
+	transition: background-color 0.3s;
+}
+
+.contact-button {
+	background-color: inherit;
+	color: white;
+	padding: 10px 20px;
+	/* outline: none; */
+	border-radius: 12px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	border: 1px solid #fff;
+}
+
+.contact-button:disabled {
+	background-color: #3f3f3f;
+	cursor: not-allowed;
+}
+
+.contact-button:hover {
+	background-color: #fff;
+	color: #000;
+	transition: background-color 0.3s;
+}
+
+.error-message {
+	color: red;
+	margin-top: 10px;
+}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}

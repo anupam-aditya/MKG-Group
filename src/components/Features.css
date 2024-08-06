@@ -1,0 +1,52 @@
+.features-container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.buttons-container {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.feature-button {
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 20px;
+	background-color: inherit;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border-radius: 8px;
+}
+
+.feature-button.active {
+	background-color: #fff;
+	color: #000;
+}
+
+.content-container {
+	overflow: hidden;
+}
+
+.feature-content {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+	width: 100%;
+}
+
+.feature-content.feature1,
+.feature-content.feature2,
+.feature-content.feature3 {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+@media screen and (max-width: 599px) {
+	.features-container {
+		padding: 16px;
+		box-sizing: border-box;
+	}
+}
