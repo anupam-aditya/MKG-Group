@@ -4,3 +4,8 @@
 .experience-item img {
 	max-width: 100%;
 }
+.experience-item a {
+	color: #fff;
+	text-decoration: underline;
+	cursor: pointer;
+}

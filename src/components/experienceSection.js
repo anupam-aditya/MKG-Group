@@ -10,7 +10,9 @@ const ExperienceSection = () => {
 			<h2>Experience</h2>
 			<div className="experience-item">
 				<img src={gradCommerce} />
-				<h3>GradCommerce</h3>
+				<a target="_blank" href="gradcommerce.com">
+					<h3>GradCommerce</h3>
+				</a>
 				<p>
 					Developed a comprehensive marketing and e-commerce platform tailored
 					to meet the needs of growing businesses. The project involved
@@ -20,7 +22,9 @@ const ExperienceSection = () => {
 			</div>
 			<div className="experience-item">
 				<img src={volkanoAI} />
-				<h3>Volkano.ai</h3>
+				<a target="_blank" href="volkano.ai">
+					<h3>Volkano.ai</h3>
+				</a>
 				<p>
 					Created Volkano.ai, an innovative platform to assist users in
 					generating targeted advertisements effortlessly. Leveraging advanced
@@ -30,7 +34,12 @@ const ExperienceSection = () => {
 			</div>
 			<div className="experience-item">
 				<img src={lemonNerd} />
-				<h3>Lemonerd</h3>
+				<a
+					target="_blank"
+					href="https://lemonerd-next-app-git-main-harsh27vardhana.vercel.app/"
+				>
+					<h3>Lemonerd</h3>
+				</a>
 				<p>
 					Developed Lemonerd, a dynamic platform that offers a curated selection
 					of articles and resources on technology, startups, and productivity.
